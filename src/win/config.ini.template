@@ -1,0 +1,34 @@
+[login]
+uname = 
+pword = 
+url = 
+
+[email]
+from = no-reply@domain.co.uk
+to = user@domain.co.uk
+
+[email_server]
+smtp_server_addr = smtp.office365.com
+smtp_server_port = 587
+tls = 1
+smtp_pword = p@ssw0rd
+
+[file_locations]
+custom_location = 1
+error_output = C:\Path\to\location
+
+[selenium]
+headless_mode = 1
+# Headless should be 1 except for debugging
+
+[navigation]
+owner_name = Company Name
+main_active = 1
+# Main_active is whether to run the main group, or skip to subgroups
+
+[path_to_venv]
+venv = 
+# Path to scripts folder of virtual environment
+
+[summary]
+summary_folder = 
